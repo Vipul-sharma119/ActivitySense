@@ -8,7 +8,7 @@ use app::TaskTrackerApp;
 
 fn main() -> eframe::Result<()> {
     eframe::run_native(
-        "Task Tracker",
+        "Activity Sense",
         eframe::NativeOptions::default(),
         Box::new(|cc| Box::new(TaskTrackerApp::new(cc))),
     )
