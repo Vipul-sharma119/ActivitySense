@@ -27,7 +27,7 @@ impl TaskTrackerApp {
             tray_receiver: receiver,
         }
     }
-
+//functions helps in exporting csv
     fn export_to_csv(&mut self) {
         let now = Local::now();
         let filename = format!("{}_{}.csv", self.task_name, now.format("%Y-%m-%d_%H-%M-%S"));
